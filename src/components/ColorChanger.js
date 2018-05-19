@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ColorChanger() {
+export default function ColorChanger(props) {
   return (
     <select className="dropDownContainer">
       <option value="black"> Black </option>
